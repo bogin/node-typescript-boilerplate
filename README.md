@@ -1,1 +1,1 @@
-# angular-boilerplate
+# node-typescript-boilerplate
