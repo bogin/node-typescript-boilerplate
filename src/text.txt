@@ -1,0 +1,25 @@
+download gz file of ffmpeg https://ffmpeg.org/download.html#releases
+use win rar
+https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/
+https://ffmpeg.org/ffmpeg.html#Main-options 
+http://trac.ffmpeg.org/wiki/EncodingForStreamingSites
+
+
+
+To stream videos to Facebook Live via RTMP using Node.js, you can follow these steps. In this example, I'll provide a basic implementation for streaming two videos sequentially, each for 1 minute, to a Facebook Live RTMP endpoint.
+
+1. Make sure you have FFmpeg installed on your system and accessible in the PATH.
+2. Install the required npm packages:
+
+```bash
+npm install child_process @types/node
+```
+
+3. Create a TypeScript file (e.g., `facebookLiveStream.ts`):
+
+```
+Replace `'video1.mp4'`, `'video2.mp4'`, and `'your_stream_key_here'` with your actual video file paths and Facebook Live stream key.
+
+Please note that this is a basic example, and there might be additional FFmpeg options or error handling that you'd want to add for a production-level application. Also, make sure you have the necessary rights and permissions to stream to Facebook Live using the provided stream key.
+
+Always exercise caution when working with external commands like FFmpeg and handle errors and edge cases appropriately in a real-world application.

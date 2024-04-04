@@ -25,4 +25,4 @@ app.listen(port, () => {
 
 app.use('/', Container.get(Router).getRouter());
 
-
+import './tmp';

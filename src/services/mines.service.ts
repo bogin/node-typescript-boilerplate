@@ -5,7 +5,7 @@ export class MinesService {
     config = {
         rows: 12,
         columns: 12,
-        total_bombs: 1,
+        total_bombs: 25,
         cells_gap: 3,
         cells_size: 35,
     } as any;
